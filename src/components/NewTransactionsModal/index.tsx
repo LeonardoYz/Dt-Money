@@ -70,7 +70,6 @@ export function NewTransactionsModal({ isOpen, onRequestClose}: NewTransactionsM
             className="form__input" 
             type="number" 
             placeholder="Valor"
-            value={amount}
             onChange={event => setAmount(Number(event.target.value))}
           />
 
